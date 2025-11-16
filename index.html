@@ -242,11 +242,11 @@
           </svg>
           <p class="popup__text">Вставьте<br>дискету,&nbsp;чтобы<br>продолжить</p> 
         </div>
-        <form class="popup__form" method="dialog">
-          <button class="popup__close-button">
+        <div class="popup__button-container">
+          <button class="popup__close-button" type="button" onclick="window['popup-dialog'].close()">
             <span class="button__text">Ок</span>
           </button>
-        </form>
+        </div>
       </dialog> 
     </footer>
     <script src="./scripts/like.js"></script>

@@ -227,7 +227,7 @@
   background-color: white;
 }
 
-.popup__form .button__text {
+.popup__button-container .button__text {
   line-height: 0.9;
   padding-block: 12.5px;
 }
