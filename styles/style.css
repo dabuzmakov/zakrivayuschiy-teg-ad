@@ -44,7 +44,7 @@
 
 .main {
   display: grid;
-  justify-content: center;  
+  justify-content: center;
   gap: 50px;
 }
 
@@ -167,6 +167,8 @@
   align-items: center;
   background-color: transparent;
   cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
 }
 
 .footer {
@@ -196,7 +198,7 @@
   display: grid;
   gap: 30px;
   border: 2px solid black;
-  inline-size: calc(353/1440 * 100vw);;
+  inline-size: calc(353/1440 * 100vw);
   padding: 26px 30px;
   font-family: var(--accent-font);
   font-size: 14px;
@@ -225,7 +227,7 @@
   background-color: white;
 }
 
-.popup__form .button__text{
+.popup__form .button__text {
   line-height: 0.9;
   padding-block: 12.5px;
 }
@@ -314,11 +316,6 @@
 
 .save-icon {
   fill: #fff;
-}
-
-.card__icon-button {
-  border: 2px solid transparent;
-  transition: border-color 0.3s ease;
 }
 
 .card__icon-button:focus {
